@@ -1,0 +1,353 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f7fa;
+}
+
+/* Main */
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*main Content */
+.main_content {
+    background-color: #fff;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 105px 90px;
+}
+
+/* .glob:hover {
+    background-color:#0c0147;
+    transition: 1s;
+    cursor: pointer;
+} */
+/* --------------------------------------------------*/
+
+/* User Info */
+.user_h2,
+.user_name,
+.user_text_info {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.user_info {
+    margin-bottom: 40px;
+}
+
+.user_h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.user_name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.user_text_info {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    width: 400px;
+}
+/* --------------------------------------------------- */
+
+/* Projects */
+.projects {
+    margin-bottom: 50px;
+}
+
+.title_h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.projects_list {
+    padding: 0;
+    margin-left: 15px;
+}
+
+.project_numbers {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.project, 
+.project_link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.project_link{
+    margin-left: 15px;
+}
+
+.project_skoba {
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+/* -----------------------------------------------------------*/
+
+/* Work */
+.work_position {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.organization {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fb6d3a;
+}
+
+.work_period {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-bottom: 10px;
+}
+.work_list {
+    padding: 0;
+    margin-left: 15px;
+}
+
+.work_list_text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    padding-right: 55px;
+}
+
+.line {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+/* ------------------------------------------------------- */
+
+/* Education */
+.education {
+    width: 327px;
+}
+
+.education_title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-top: 43px;
+    margin-bottom: 10px;
+}
+
+.education_name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+    margin-bottom: 10px;
+}
+
+.education_position {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+/* ====================== */
+#Go {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+#IT {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FB6D3A ;
+}
+/* ++++++++++++++++++++++ */
+#camp {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: firebrick;
+}
+#ster {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+/* +++++++++++++++++++++++++ */
+.Byte_B {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgb(73, 16, 230);
+}
+.Byte {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+/* ------------------------------------------------------- */
+
+/* Saidbar */
+.saidbar {
+    background-color: #1e2939;
+    padding-top: 40px;
+    width: 370px;
+}
+
+.photo {
+    width: 370px;
+    height: 354px;
+    margin-bottom: 33px;
+}
+
+.contact {
+    margin-bottom: 50px;
+}
+
+.contact,
+.tSkills,
+.sSkill  {
+    margin-left: 40px;
+}
+
+.contact_type {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-right: 7px;
+}
+
+.contact_link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color:#8c98ac;
+}
+#Gmail {
+    padding-left: 4px;
+}
+#phone {
+    padding-left: 5px; 
+}
+
+.saidbar_title {
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+
+.sSkill {
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.skills_list {
+    color: #ffffff;
+    padding: 0;
+    margin-left: 20px;
+}
+
+.skills_text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.li_color_points {
+    color: #FB6D3A;
+}
+
+#svg_tSkill {
+    rotate: 180deg;
+}
+/* --------------------- */
+
+.span_lang_back_ua {
+    padding-left: 4px;
+}
+.span_lang_back_en {
+    padding-left: 20px;
+}
+.span_lang_back_pl {
+    padding-left: 29px;
+}
+.span_lang_back_ru {
+    padding-left: 22px;
+}
+/* up +++++++++++++++++++++ down */
+.ua_span_lang_back_ua {
+    padding-left: 7px;
+}
+.ua_span_lang_back_en {
+    padding-left: 7px;
+}
+.ua_span_lang_back_pl {
+    padding-left: 26px;
+}
+.ua_span_lang_back_ru {
+    padding-left: 15px;
+}
+/* ------------------------------------------------------- */
+
+/* Translate */
+#svg_glob {
+    color:rgb(76, 134, 241);
+    padding-left: 10px;
+}
+/* --------------------------------------------------------- */
